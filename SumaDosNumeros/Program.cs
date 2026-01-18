@@ -36,6 +36,8 @@ internal class Program
         Console.WriteLine("\nEl resultado es: " + resultado);
         //Te pide que ingreses un caracterer para salir
         Console.Write("\n\nPor favor, para salir presione \"ENTER\" (o cualquier tecla): ");
+
+        //Para esperar y cerrar
         Console.ReadKey();
     }
 }
