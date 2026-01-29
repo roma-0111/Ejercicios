@@ -4,17 +4,20 @@
     {
         static void Main(string[] args)
         {
-            //Quita los espacios
+            Console.WriteLine("Bienvenida/o, se mostrará como es el funcionamiento de algunos métodos tratando con Strings.");
             string greeting = "      Hello World!       ";
-            Console.WriteLine($"[{greeting}]");
+            Console.WriteLine($"El texto a usar es \"{greeting}\"");
 
-            string trimmedGreeting = greeting.TrimStart(); //Quita espacio desde el inicio.
+            //Quita espacio desde el inicio.
+            string trimmedGreeting = greeting.TrimStart();
             Console.WriteLine($"[{trimmedGreeting}]");
 
-            trimmedGreeting = greeting.TrimEnd(); //Quita espacio del final.
+            //Quita espacio del final.
+            trimmedGreeting = greeting.TrimEnd(); 
             Console.WriteLine($"[{trimmedGreeting}]");
 
-            trimmedGreeting = greeting.Trim(); //Quita espacio de los 2 lados.
+            //Quita espacio de los 2 lados.
+            trimmedGreeting = greeting.Trim(); 
             Console.WriteLine($"[{trimmedGreeting}]");
 
             //---
